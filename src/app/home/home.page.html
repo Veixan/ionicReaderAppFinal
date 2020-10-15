@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+      <img button="true" [routerDirection]="'root'" [routerLink]="['/toc']" src="https://i.picsum.photos/id/1000/5626/3635.jpg?hmac=qWh065Fr_M8Oa3sNsdDL8ngWXv2Jb-EE49ZIn6c0P-g" alt="" />
+      <ion-card-header>
+        <ion-card-subtitle>A Book by Titus Rexium</ion-card-subtitle>
+        <ion-card-title>Ionic and Christ</ion-card-title>
+        <ion-card-content>Tap the image to begin.</ion-card-content>
+      </ion-card-header>
+      <!-- <ion-button color="success" fill="outline" [routerDirection]="'root'" [routerLink]="['/toc']">Go to TOC</ion-button> -->
+    </ion-card>
+    
+</ion-content>
